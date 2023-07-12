@@ -16,7 +16,9 @@ function countStr(str) {
     }
   }
 
-  return cleanStr;
+  return [consonants, vowels];
 }
 
-console.log(countStr("albert.. !!"));
+const result = countStr("albert.. !!");
+console.log("Consonants: ", result[0]);
+console.log("Vowels: ", result[1]);
