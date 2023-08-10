@@ -4,13 +4,14 @@ const string = "hola";
 
 function allSubstrings(str) {
   let substrings = [];
-  for (letter of str) {
+  for (letter in str) {
     let begining = letter;
-
     for (let i = 0; i <= str.length; i++) {
-      console.log(str.substring(begining, i));
+      let end = parseInt(i) + parseInt(begining);
+      substrings.push(str.substring(begining, end));
     }
   }
+  return substrings;
 }
 
 console.log(allSubstrings(string));
