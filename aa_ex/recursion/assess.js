@@ -156,3 +156,9 @@ let stormEvents1 = ["lightning", "wind", "rain"];
 // print 'wind'     then pause for 200ms
 // print 'BOOM!'    (exactly 400ms after 'FLASH!')
 // print 'rain'     (exactly 200ms after 'wind')
+
+// thunderstorm(stormEvents1);
+// print 'FLASH!'   then pause for 200ms
+// print 'wind'     then pause for 200ms
+// print 'BOOM!'    (exactly 400ms after 'FLASH!')
+// print 'rain'     (exactly 200ms after 'wind')
